@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
@@ -31,7 +31,7 @@ jobs:
           path: '${{ github.workspace }}/target/*.war'
 
   deploy:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     needs: build
     environment:
       name: 'Production'
@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'klbstore'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3C3FFE597CA24DA580F97552BE86A2BA }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6DC73EFED48E46C680ABA0FB35AE48E0 }}
           package: '*.war'
