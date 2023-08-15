@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'klbstore'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_63C5BD1050424041883E9E5A3F033B49 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3C3FFE597CA24DA580F97552BE86A2BA }}
           package: '*.war'
