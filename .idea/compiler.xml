@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="KLBStore" />
+        <module name="ROOT" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ROOT" target="17" />
+      <module name="KLBStore" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
