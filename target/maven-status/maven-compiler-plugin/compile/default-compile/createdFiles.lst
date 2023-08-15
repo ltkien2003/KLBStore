@@ -99,6 +99,7 @@ com\klbstore\model\Contact.class
 com\klbstore\dto\NguoiDungDTO.class
 com\klbstore\service\ParamService.class
 com\klbstore\model\AnhSanPham.class
+com\klbstore\ServletInitializer.class
 com\klbstore\dto\ChangePassword.class
 com\klbstore\delivery\DistrictResponse.class
 com\klbstore\extensions\HashedPasswordArgon2.class
